@@ -6,7 +6,7 @@ main:
     add x20, x19, x19 #int b = a + a
     addi x19, x20, 32 #a = b + 32
 
-    # int d = (a + b) - 5....
+    # int d = (a + b) - 5
     #first a plus b
     add x5, x19, x20
 
